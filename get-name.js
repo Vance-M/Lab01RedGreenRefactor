@@ -1,6 +1,5 @@
 const getName = ({ name }) => { 
-    const pulledName = name;
-    return (pulledName);
+    return (name);
 };
 
 module.exports = getName;
