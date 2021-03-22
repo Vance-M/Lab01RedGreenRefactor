@@ -1,14 +1,12 @@
 const getName = require('./get-name');
 
-describe('get name from an object function', () => {
+describe('getName function', () => {
     it('looks into an object and pulls out the name', () => {
-        const Object = {
-            name: 'john',
-            age: 30,
-        };
-        const name = getName(Object);
+
+        const spot = { name: 'spot', age: 5, weight: '20 lbs' };
+        const name = getName(spot);
   
-        expect(name).toEqual('john');
+        expect(name).toEqual('spot');
 
     });
 });
