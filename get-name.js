@@ -1,5 +1,5 @@
-const getName = (Object) => { 
-    const pulledName = Object.name;
+const getName = ({ name }) => { 
+    const pulledName = name;
     return (pulledName);
 };
 
